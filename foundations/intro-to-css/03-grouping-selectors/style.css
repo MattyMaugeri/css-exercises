@@ -1,0 +1,13 @@
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.click-me {
+    background-color: black;
+    color: white;
+}
+
+.no-click-me {
+    background-color: yellow;
+}
