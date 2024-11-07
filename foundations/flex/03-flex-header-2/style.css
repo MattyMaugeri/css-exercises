@@ -34,7 +34,6 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
 }
 
 a {
@@ -45,4 +44,30 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+/* Solution attmepts below */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 0.5em;
+}
+
+.left-side, 
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+button {
+  padding: 0.5em 2em;
 }
